@@ -1,0 +1,11 @@
+archivo = open("12_test.txt", "w")
+archivo.write("Python\n")
+archivo.write("Git\n")
+archivo.write("HTML\n")
+archivo.write("CSS\n")
+archivo.close()
+
+archivo = open("12_test.txt", "r")
+lectura = archivo.read()
+archivo.close()
+print(lectura)
